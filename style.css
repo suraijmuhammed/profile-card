@@ -1,0 +1,79 @@
+
+
+.prfl{
+    
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 0%;
+    margin: 0%;
+
+
+ 
+  
+    
+    
+
+}
+ .image{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    border-radius: 50%;
+    padding: 0;
+    object-fit: cover;
+   
+ 
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    font-family:  'Caveat', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+.box{
+    min-width: 250px;
+    max-width: 350px;
+    box-sizing: border-box;
+    width: 100%;
+    
+    padding: 30px ;
+    border: 5px solid black;
+    border-radius: 24px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ .box span{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.job{
+    font-size: 25px;
+}
+.media-buttons{
+    
+    display: flex;
+    align-items: center;
+}
+.media-buttons .bi{
+    height: 34px;
+    width: 34px;
+   text-decoration: none;
+   margin: 0px 8px;
+   
+}
+
